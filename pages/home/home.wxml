@@ -1,0 +1,15 @@
+<!--pages/home/home.wxml-->
+<view class='container'>
+  <label class='char-lable'>
+    <text class='char-text'>请输入</text>
+    <input class='char-input' bindinput="onBindInput" />
+  </label>
+  <view class='char-pinyin'>
+    <span wx:for="{{value}}" wx:key="{{index}}">
+      <span wx:for="{{item}}" wx:for-item='text' wx:for-index='idx' wx:key="{{idx}}">
+        <span wx:if="{{idx===0}}">{{text}} </span>
+        <span wx:else>({{text}}) </span>
+      </span>
+    </span>
+  </view>
+</view>

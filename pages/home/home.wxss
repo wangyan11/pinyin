@@ -1,0 +1,19 @@
+/* pages/home/home.wxss */
+.char-lable{
+  display: flex;
+  border: 1rpx solid #09f;
+  background: #fff;
+}
+.char-text{
+  background: #09f;
+  color: white;
+  width: 200rpx;
+  text-align: center;
+}
+.char-input{
+  padding-left: 10rpx;
+}
+.char-pinyin{
+  background: #fff;
+  width: 100%;
+}

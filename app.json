@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/home/home"
+  ],
+  "window":{
+    "backgroundTextStyle":"#09f",
+    "navigationBarBackgroundColor": "#09f",
+    "navigationBarTitleText": "查拼音",
+    "navigationBarTextStyle":"#09f"
+  }
+}
